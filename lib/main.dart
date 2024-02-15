@@ -11,8 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Color(0x719EF3FC),
         appBar: AppBar(
-          backgroundColor: Colors.green,
+          backgroundColor: Color(0x712DE5CA),
           title: Center(child: const Text('column')),
         ),
         body: Center(
@@ -23,8 +24,8 @@ class MyApp extends StatelessWidget {
                 width: 250,
                 height: 70,
                 decoration: BoxDecoration(
-                    color: Colors.green,
-                    borderRadius: BorderRadius.circular(20),
+                    color: Color(0x712DC9E5),
+                    borderRadius: BorderRadius.circular(10),
                     border: Border.all(width: 1, color: Colors.black,),
                 ),
                   child:const Center
@@ -40,8 +41,8 @@ class MyApp extends StatelessWidget {
                 width: 250,
                 height: 70,
                 decoration: BoxDecoration(
-                  color: Colors.indigo,
-                  borderRadius: BorderRadius.circular(20),
+                  color: Color(0x712D9BE5),
+                  borderRadius: BorderRadius.circular(10),
                   border: Border.all(width: 1, color: Colors.black,),
                 ),
                 child:const Center
@@ -57,8 +58,8 @@ class MyApp extends StatelessWidget {
                 width: 250,
                 height: 70,
                 decoration: BoxDecoration(
-                  color: Colors.greenAccent,
-                  borderRadius: BorderRadius.circular(20),
+                  color: Color(0x712D6AE5),
+                  borderRadius: BorderRadius.circular(10),
                   border: Border.all(width: 1, color: Colors.black,),
                 ),
                 child:const Center
@@ -74,8 +75,8 @@ class MyApp extends StatelessWidget {
                 width: 250,
                 height: 70,
                 decoration: BoxDecoration(
-                  color: Colors.yellowAccent,
-                  borderRadius: BorderRadius.circular(20),
+                  color: Color(0x71392DE5),
+                  borderRadius: BorderRadius.circular(10),
                   border: Border.all(width: 1, color: Colors.black,),
                 ),
                 child:const Center
@@ -91,8 +92,8 @@ class MyApp extends StatelessWidget {
                 width: 250,
                 height: 70,
                 decoration: BoxDecoration(
-                  color: Colors.lightBlueAccent,
-                  borderRadius: BorderRadius.circular(20),
+                  color: Color(0x717A2DE5),
+                  borderRadius: BorderRadius.circular(10),
                   border: Border.all(width: 1, color: Colors.black,),
                 ),
                 child:const Center
